@@ -3,7 +3,7 @@
 ![AWS DMS](https://img.shields.io/badge/AWS-DMS-orange) ![AWS RDS](https://img.shields.io/badge/AWS-RDS_MySQL-blue) ![DB2](https://img.shields.io/badge/Source-AS400_DB2-green) ![Status](https://img.shields.io/badge/Status-RCA_Documentado-red)
 
 ## 📐 Arquitectura Implementada
-![Arquitectura](docs/00-arquitectura.jpeg)
+![Arquitectura](docs/00-arquitectura.png)
 
 > Replicación de datos desde entorno simulado AS400 a RDS MySQL usando AWS Database Migration Service. Región: us-east-2
 
