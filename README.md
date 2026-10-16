@@ -3,7 +3,7 @@
 ![AWS DMS](https://img.shields.io/badge/AWS-DMS-orange) ![AWS RDS](https://img.shields.io/badge/AWS-RDS_MySQL-blue) ![DB2](https://img.shields.io/badge/Source-AS400_DB2-green) ![Status](https://img.shields.io/badge/Status-RCA_Documentado-red)
 
 ## 📐 Arquitectura Implementada
-![Arquitectura](docs/00-arquitectura.jpeg)
+![Arquitectura](00-arquitectura.jpeg)
 
 > Replicación de datos desde entorno simulado AS400 a RDS MySQL usando AWS Database Migration Service. Región: us-east-2
 
@@ -18,10 +18,10 @@ Migrar la base de datos del sistema VCenturion del AS400 a un RDS MySQL en AWS.
 ## 📸 Evidencia de Ejecución
 
 ### 1. Configuración de Endpoints
-![Endpoints](docs/02-puntos-conexion.png)
+![Endpoints](02-puntos-conexion.png)
 
 ### 2. Resultado de la Tarea de Migración
-![Tarea con error](docs/01-tarea-error.png)
+![Tarea con error](01-tarea-error.png)
 **Resultado:** `Carga completada con errores - 100%`
 **Detalle:** Solo aparecen tablas del sistema `sys`, `mysql`, `performance_schema`. No aparecen tablas de la librería CENTURION.
 
